@@ -7,7 +7,9 @@
     <option name="reloaded" value="true" />
   </component>
   <component name="CMakeRunConfigurationManager">
-    <generated />
+    <generated>
+      <config projectName="stm32-demo" targetName="stm32-demo.elf" />
+    </generated>
   </component>
   <component name="CMakeSettings">
     <configurations>
@@ -15,9 +17,14 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="91045509-a00e-487f-875d-a5194e23bbe3" name="Changes" comment="">
+    <list default="true" id="91045509-a00e-487f-875d-a5194e23bbe3" name="Changes" comment="开始03--位带操作">
+      <change beforePath="$PROJECT_DIR$/.cproject" beforeDir="false" afterPath="$PROJECT_DIR$/.cproject" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.mxproject" beforeDir="false" afterPath="$PROJECT_DIR$/.mxproject" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/Inc/main.h" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Inc/main.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/Src/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Src/main.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/STM32F103ZETX_FLASH.ld" beforeDir="false" afterPath="$PROJECT_DIR$/STM32F103ZETX_FLASH.ld" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stm32-demo.ioc" beforeDir="false" afterPath="$PROJECT_DIR$/stm32-demo.ioc" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,8 +68,13 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;CPPToolchains&quot;
   }
 }</component>
-  <component name="RunManager">
-    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
+  <component name="RunManager" selected="OpenOCD Download &amp; Run.OCD stm32-demo">
+    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="stm32-demo.elf" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="stm32-demo" TARGET_NAME="stm32-demo.elf" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="stm32-demo" RUN_TARGET_NAME="stm32-demo.elf">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -83,6 +95,11 @@
         <option name="CLION.COMPOUND.BUILD" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="CMake Application.stm32-demo.elf" />
+      <item itemvalue="OpenOCD Download &amp; Run.OCD stm32-demo" />
+      <item itemvalue="OpenOCD Download &amp; Run.stm32-demo.elf" />
+    </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -93,7 +110,16 @@
       <option name="presentableId" value="Default" />
       <updated>1662381361968</updated>
       <workItem from="1662381385141" duration="442000" />
+      <workItem from="1671865757419" duration="556000" />
     </task>
+    <task id="LOCAL-00001" summary="开始03--位带操作">
+      <created>1671863947215</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1671863947215</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -109,5 +135,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="开始03--位带操作" />
+    <option name="LAST_COMMIT_MESSAGE" value="开始03--位带操作" />
   </component>
 </project>
